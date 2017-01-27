@@ -16,3 +16,10 @@ mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/note
 "`
 
 You can then view the Jupyter Notebook by opening `http://localhost:8888` in your browser, or `http://<DOCKER-MACHINE-IP>:8888` if you are using a Docker Machine VM.
+
+
+References
+https://www.continuum.io/blog/developer-blog/anaconda-and-docker-better-together-reproducible-data-science
+https://www.dataquest.io/blog/docker-data-science/
+https://docs.docker.com/
+
