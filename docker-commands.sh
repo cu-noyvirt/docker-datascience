@@ -12,7 +12,7 @@ docker-machine env default
 docker-machine env --no-proxy default
 #Running nginx server using docker
 docker run -d -p 8000:80 nginx
-#Heititng nginx server created above
+#Hitting nginx server created above
 $(docker-machine ip default):8000
 # connecting to docker machine
 docker-machine  ssh
