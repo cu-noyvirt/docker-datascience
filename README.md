@@ -1,4 +1,4 @@
-# docker-datascience
+# Instructions
 
 ## Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
 
