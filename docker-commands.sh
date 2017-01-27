@@ -44,4 +44,18 @@ docker images
  docker build -t hello .
  docker run hello
  
+ #Pushing/Pulling to docker Hub
+ #create a docker hub account, create a repository
+ #connect to your account
+docker login
+
+# Tag your image to be pushed with repository
+docker tag my-python-docker-image jainpranj/docker-data-science:latest
+# Push your image o docker hub
+docker push jainpranj/docker-data-science:latest
+
+# Pull image
+docker pull jainpranj/docker-data-science
+ 
+ 
   
