@@ -4,7 +4,7 @@
 
 ### Download an [Anaconda image](https://hub.docker.com/r/continuumio/anaconda3/)
 
-### You can download and run an anaconda image using the following commands:
+#### You can download and run an anaconda image using the following commands:
 
 * `docker pull continuumio/anaconda3`
 * `docker run -i -t continuumio/anaconda3 /bin/bash`
