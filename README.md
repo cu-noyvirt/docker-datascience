@@ -1,8 +1,8 @@
 # Instructions
 
-## Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
+### Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
 
-## Download an [Anaconda image](https://hub.docker.com/r/continuumio/anaconda3/)
+### Download an [Anaconda image](https://hub.docker.com/r/continuumio/anaconda3/)
 
 ### You can download and run an anaconda image using the following commands:
 
