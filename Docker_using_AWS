@@ -15,6 +15,11 @@ To install Docker on an Amazon Linux instance:
 4. Install Docker.
 
 ```[ec2-user ~]$ sudo apt-get install docker```
+```sudo apt install docker.io```
 5. Start the Docker service.
 
 ```[ec2-user ~]$ sudo service docker start```
+
+
+
+ 
