@@ -1,12 +1,14 @@
 ### Setting up a docker environment
 
-#### After downloading docker, check for hello-world package to verify download success. 
+#### Download Docker Tools
+
+#### Checking for hello-world package to verify download success. 
 `docker run hello-world`
-#### List all docker images 
+#### Listing all docker images 
 `docker images`
-#### Run docker container with the ubuntu image
+#### Running docker container with the ubuntu image
 `docker run -ti unbuntu bash`
-#### Create a new docker machine
+#### Creating a new docker machine
 `docker-machine create`
 #### Docker machine setup environment
 `docker-machine env default`
@@ -21,24 +23,24 @@
 
 ### Creating python setup in docker
 
-#### Pull images from dataquest. It can be pulled from docker hub also.
+#### Pulling images from dataquest. It can be pulled from docker hub also (Check R).
 `docker pull dataquestio/python3-starter`
 
-#### Creating  local directory for python notebook
+#### Creating local directory for python notebook
 `cd docker/`
 `mkdir notebooks_docker`
 
 #### Running juypter from the image pulled
 `docker run -d -p 8888:8888 -v /Users/pranjal/Desktop/ADS/docker:/home/ds/notebooks dataquestio/python3-starter`
 
-##### List docker running containers
+##### Listing docker running containers
 `docker ps`
 
 #### Copying notebooks back to local
 `docker cp a6d0c4895476:/home/ds/notebooks/notebooks_docker/my-first-notebook.ipynb /Users/pranjal/Desktop/ADS/docker/notebooks_docker/
 cd /Users/pranjal/Desktop/ADS/docker/notebooks_docker/`
 
-#### Execute /How to get into image/container
+#### Execute/How to get into image/container
 `docker exec -it a6d0c4895476 /bin/bash`
 
 #### Committing to docker image
@@ -51,9 +53,11 @@ docker images`
  `docker build -t hello .
  docker run hello`
  
-### Pushing/Pulling to docker Hub
+### Publishing an image to docker Hub
 
-#### create a docker hub account, create a repository and connect to your account
+#### Create a docker hub account, create a repository
+
+#### Connect to your account
 `docker login`
 
 #### Tag your image to be pushed with repository
