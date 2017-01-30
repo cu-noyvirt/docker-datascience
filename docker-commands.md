@@ -16,7 +16,7 @@
 `docker run -d -p 8000:80 nginx`
 #### Hitting nginx server created above
 `$(docker-machine ip default):8000`
-#### connecting to docker machine
+#### Connecting to the docker machine
 `docker-machine  ssh`
 
 ### Creating python setup in docker
@@ -31,7 +31,7 @@
 #### Running juypter from the image pulled
 `docker run -d -p 8888:8888 -v /Users/pranjal/Desktop/ADS/docker:/home/ds/notebooks dataquestio/python3-starter`
 
-##### list docker running containers
+##### List docker running containers
 `docker ps`
 
 #### Copying notebooks back to local
