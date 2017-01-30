@@ -1,4 +1,4 @@
-# Instructions
+## Docker Python Environment for Data Science projects
 
 ### Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
 
@@ -19,7 +19,8 @@ You can then view the Jupyter Notebook by opening `http://localhost:8888` in you
 
 
 ### References
+* [Docker](https://docs.docker.com/)
 * [Anaconda and docker](https://www.continuum.io/blog/developer-blog/anaconda-and-docker-better-together-reproducible-data-science)
 * [Docker data science](https://www.dataquest.io/blog/docker-data-science/)
-* [Docker](https://docs.docker.com/)
+
 
