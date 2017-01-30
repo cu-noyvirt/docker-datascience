@@ -1,14 +1,14 @@
  
 #### After downloading docker check for hello-world package to ensure download was successfully and correct. 
-docker run hello-world
+`docker run hello-world`
 #### Run docker container with ubuntu image
-docker run -ti unbuntu bash
+`docker run -ti unbuntu bash`
 #### Check all docker images 
-docker images
+`docker images`
 #### Create a new docker machine
-docker-machine create
+`docker-machine create`
 #### docker machine setup environment
-docker-machine env default
+`docker-machine env default`
 #### setting docker machine to no proxy- to connect to internet
 `docker-machine env --no-proxy default`
 #### Running nginx server using docker
