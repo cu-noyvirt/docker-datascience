@@ -1,9 +1,11 @@
-DOCKER:
 
-Docker is a technology that allows you to build, run, test, and deploy distributed applications that are based on Linux containers. 
-Amazon ECS uses Docker images in task definitions to launch containers on EC2 instances in your clusters.
 
-To install Docker on an Amazon Linux instance:
+#### Docker is a technology that allows you to build, run, test, and deploy distributed applications that are based on Linux containers. 
+#### Running Docker on AWS provides a highly reliable, low-cost way to quickly build, run, test, and deploy distributed applications at any 
+#### scale. AWS provides support for Docker open-source and commercial solutions within AWS services.
+#### Amazon ECS uses Docker images in task definitions to launch containers on EC2 instances in your clusters.
+
+#### To install Docker on an Amazon Linux instance:
 
 1. Launch an instance with the Amazon Linux AMI. For more information, see [Launching an Instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html) in the Amazon EC2 User Guide for Linux Instances.
 
