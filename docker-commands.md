@@ -23,7 +23,7 @@
 
 ### Creating python setup in docker
 
-#### Pulling images from dataquest. It can be pulled from docker hub also (Check R).
+#### Pulling images from dataquest. It can be pulled from docker hub also (See Docker_for_Anaconda.md).
 `docker pull dataquestio/python3-starter`
 
 #### Creating local directory for python notebook
