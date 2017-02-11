@@ -1,6 +1,6 @@
 
 # Docker installation choices
-If you’re running Linux, it’s quite simple. You can just use your distro’s package manager to install Docker Engine and you’re good to go. Then you’re free to install other supporting tools that we’ll go into later.
+If you’re running Linux, it’s quite simple. You can just use your distro’s package manager to install Docker Engine and you’re good to go. Then you’re free to install other supporting tools later.
 
 Both OSX and Windows users aren’t so lucky, but as time goes on, getting Docker to run on all major platforms is getting better and better. As of this post, there are 2 ways, both with their pros and cons.
 
