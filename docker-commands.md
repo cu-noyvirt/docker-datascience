@@ -45,8 +45,11 @@ cd /Users/pranjal/Desktop/ADS/docker/notebooks_docker/`
 
 #### Committing to docker image
 `docker commit a6d0c4895476192605cd0309d5f8181c49f2117185d1841e6f16e8ccb621ef13`
+
 `docker tag 3affd593319d63aff135af24880b406563d6049efbc1a41ef644a2bf6f4923c0`
+
 `docker tag 3affd593319d63aff135af24880b406563d6049efbc1a41ef644a2bf6f4923c0 my_python_image`
+
 `docker images`
   
 #### Running a dockerfile
